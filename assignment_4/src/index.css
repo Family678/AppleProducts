@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background:#f5f5f5;
+}
+
+.App {
+  text-align: center;
+}
+
+div input {
+  height: 50px;
+  margin: 2% 0 0 0;
+  font-size: 20px;
+  display: inline-block;
+  width: 50%;
+}
+
+p{
+    margin: 10px 0 0 50px;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+
+.check{
+  color: grey;
+  font-size: 12px;
+}
+
+br {
+  height: 20px;
+  background-color: grey;
+  width: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+    transition: transform 300ms ease-in;
+    transform: scale(1);
+}
+
+.cart-cont {
+display: flex;
+height: 56px;
+margin-top: 2%;
+background-color:black;
+justify-content: center;
+align-items: center;
+padding: 0% 2% 0 2%;
+}
+.AppleImage{
+    overflow: hidden;
+    border-radius: 2px 2px 0 0;
+    max-height: 200px;
+    height: 200px;
+}
+
+.AppleName{
+    font-weight: normal;
+    font-size: 15px;
+    max-height: 20px;
+}
+
+.ApplePrice{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.AppleName, .ApplePrice{
+    padding: 0 16px;
+    text-align: center;
+}
+
+.appleProduct{
+    background: white;
+    margin: 16px;
+    width: 200px;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.products{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 16px;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.product-action{
+    padding: 16px;
+}
+
+button{
+  height:20px;
+  }
+
+.cart-font{
+  color: white;
+  font-weight: bold;
+}
+.header{
+  display: flex;
+  align-content:center;
+  justify-content: center;
+}
+.App{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS5JqpdTvpKHyhfw0_6L-PEFTsjE9SRpnZZCszWT73xpqmctE5');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  }
